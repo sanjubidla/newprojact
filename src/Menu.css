@@ -1,0 +1,169 @@
+
+
+
+img {
+    width: 50%;
+    height: 100%;
+   margin-left: 5%;
+    cursor: pointer;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 12px;
+    position: relative;
+}
+.raq{
+    line-height: 29px;
+    margin-top: 12px;
+    margin-right: 2%;
+    background-color: #17b8e6;
+    color: #fff;
+  
+}
+  .Quote{    font-size: 13px;
+    margin-left: 4%;
+}
+ span.web{
+    color: #17b8e6;
+    margin-left: 0%;
+
+}
+h1{  font-weight: 800 !important;
+    margin-top: 10%;
+    margin-left: 20%;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25% !important;
+  
+}
+.div{
+    width: 1065px;
+    height: 100px;
+    position: relative;
+    animation: mymove 8s infinite;
+    animation-delay: 2s;
+  }
+  
+  @keyframes mymove {
+    0%   {left: 0px; right: 0px;}
+  25%  {left: 100px; right: 0px;}
+  50%  { left: 100px; right: 100px;}
+  75%  {left: 0px; right: 100px;}
+  100% {left: 0px; right: 0px;}
+  }
+ 
+    /******** Slider.js css *******/
+
+  .slider {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    height: 645px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .slider-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .slide {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .arrow {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform ease-in .1s;
+  }
+  
+  .nextArrow {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    z-index: 999;
+    color: #fff;
+  }
+  
+  .backArrow {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    z-index: 999;
+    color: #fff;
+  }
+  
+  .fa-arrow-right:before, .fa-arrow-left:before {
+    color: #222
+  }
+  
+  #vids {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #vids a:first-of-type {
+    margin-bottom: 5px;
+  }
+  
+  /******** Web.js css *******/
+
+  .brand{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:0px !important;
+    margin-left: 6% !important;
+    width: 90%;
+    height: 100%;
+  }
+  p{
+    color: #828282;
+    font-size: 14px;
+    line-height: 26px;
+    width: 76%;
+    margin: auto;
+
+  
+  }
+  .desk{
+    font-size:xx-large;
+    color: #17b8e6;
+    margin-left: 42%;
+    margin-bottom: 4%;
+  }
+  .color{
+    background-color:#f7eaea;
+    padding: 63px;
+  }
+  .padding{
+    padding: 63px;
+  }
+  .we{
+    font-weight: 200;
+  }
+  h6{
+    text-align: center;
+  }
+  .Read{  width: 50%;
+    margin-left: 31%;
+    color: #17b8e6;
+  }
